@@ -1,0 +1,455 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building jtst 0.0.1
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] >>> jetty-maven-plugin:9.4.8.v20171121:run (default-cli) > test-compile @ jtst >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ jtst ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:compile (default-compile) @ jtst ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ jtst ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/k/src/java-workspace/joddt1/joddt1/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:testCompile (default-testCompile) @ jtst ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] <<< jetty-maven-plugin:9.4.8.v20171121:run (default-cli) < test-compile @ jtst <<<
+[INFO] 
+[INFO] 
+[INFO] --- jetty-maven-plugin:9.4.8.v20171121:run (default-cli) @ jtst ---
+[INFO] Configuring Jetty for project: jtst
+[INFO] webAppSourceDirectory not set. Trying src/main/webapp
+[INFO] Reload Mechanic: automatic
+[INFO] nonBlocking:false
+[INFO] Classes = /home/k/src/java-workspace/joddt1/joddt1/target/classes
+[INFO] Logging initialized @2989ms to org.eclipse.jetty.util.log.Slf4jLog
+[INFO] Context path = /
+[INFO] Tmp directory = /home/k/src/java-workspace/joddt1/joddt1/target/tmp
+[INFO] Web defaults = org/eclipse/jetty/webapp/webdefault.xml
+[INFO] Web overrides =  none
+[INFO] web.xml file = null
+[INFO] Webapp directory = /home/k/src/java-workspace/joddt1/joddt1/src/main/webapp
+[INFO] jetty-9.4.8.v20171121, build timestamp: 2017-11-21T22:27:37+01:00, git hash: 82b8fb23f757335bb3329d540ce37a2a2615f0a8
+[WARNING] javax.mail.Address scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/Address.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/Address.class]
+[WARNING] javax.mail.AuthenticationFailedException scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/AuthenticationFailedException.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/AuthenticationFailedException.class]
+[WARNING] javax.mail.Authenticator scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/Authenticator.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/Authenticator.class]
+[WARNING] javax.mail.BodyPart scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/BodyPart.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/BodyPart.class]
+[WARNING] javax.mail.EncodingAware scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/EncodingAware.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/EncodingAware.class]
+[WARNING] javax.mail.EventQueue$QueueElement scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/EventQueue$QueueElement.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/EventQueue$QueueElement.class]
+[WARNING] javax.mail.EventQueue$TerminatorEvent scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/EventQueue$TerminatorEvent.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/EventQueue$TerminatorEvent.class]
+[WARNING] javax.mail.EventQueue scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/EventQueue.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/EventQueue.class]
+[WARNING] javax.mail.FetchProfile$Item scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/FetchProfile$Item.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/FetchProfile$Item.class]
+[WARNING] javax.mail.FetchProfile scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/FetchProfile.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/FetchProfile.class]
+[WARNING] javax.mail.Flags$Flag scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/Flags$Flag.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/Flags$Flag.class]
+[WARNING] javax.mail.Flags scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/Flags.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/Flags.class]
+[WARNING] javax.mail.Folder scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/Folder.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/Folder.class]
+[WARNING] javax.mail.FolderClosedException scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/FolderClosedException.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/FolderClosedException.class]
+[WARNING] javax.mail.FolderNotFoundException scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/FolderNotFoundException.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/FolderNotFoundException.class]
+[WARNING] javax.mail.Header scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/Header.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/Header.class]
+[WARNING] javax.mail.IllegalWriteException scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/IllegalWriteException.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/IllegalWriteException.class]
+[WARNING] javax.mail.MailSessionDefinition scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/MailSessionDefinition.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/MailSessionDefinition.class]
+[WARNING] javax.mail.MailSessionDefinitions scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/MailSessionDefinitions.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/MailSessionDefinitions.class]
+[WARNING] javax.mail.Message$RecipientType scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/Message$RecipientType.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/Message$RecipientType.class]
+[WARNING] javax.mail.Message scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/Message.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/Message.class]
+[WARNING] javax.mail.MessageAware scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/MessageAware.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/MessageAware.class]
+[WARNING] javax.mail.MessageContext scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/MessageContext.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/MessageContext.class]
+[WARNING] javax.mail.MessageRemovedException scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/MessageRemovedException.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/MessageRemovedException.class]
+[WARNING] javax.mail.MessagingException scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/MessagingException.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/MessagingException.class]
+[WARNING] javax.mail.MethodNotSupportedException scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/MethodNotSupportedException.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/MethodNotSupportedException.class]
+[WARNING] javax.mail.Multipart scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/Multipart.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/Multipart.class]
+[WARNING] javax.mail.MultipartDataSource scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/MultipartDataSource.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/MultipartDataSource.class]
+[WARNING] javax.mail.NoSuchProviderException scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/NoSuchProviderException.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/NoSuchProviderException.class]
+[WARNING] javax.mail.Part scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/Part.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/Part.class]
+[WARNING] javax.mail.PasswordAuthentication scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/PasswordAuthentication.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/PasswordAuthentication.class]
+[WARNING] javax.mail.Provider$Type scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/Provider$Type.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/Provider$Type.class]
+[WARNING] javax.mail.Provider scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/Provider.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/Provider.class]
+[WARNING] javax.mail.Quota$Resource scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/Quota$Resource.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/Quota$Resource.class]
+[WARNING] javax.mail.Quota scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/Quota.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/Quota.class]
+[WARNING] javax.mail.QuotaAwareStore scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/QuotaAwareStore.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/QuotaAwareStore.class]
+[WARNING] javax.mail.ReadOnlyFolderException scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/ReadOnlyFolderException.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/ReadOnlyFolderException.class]
+[WARNING] javax.mail.SendFailedException scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/SendFailedException.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/SendFailedException.class]
+[WARNING] javax.mail.Service scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/Service.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/Service.class]
+[WARNING] javax.mail.Session$1 scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/Session$1.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/Session$1.class]
+[WARNING] javax.mail.Session$2 scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/Session$2.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/Session$2.class]
+[WARNING] javax.mail.Session$3 scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/Session$3.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/Session$3.class]
+[WARNING] javax.mail.Session$4 scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/Session$4.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/Session$4.class]
+[WARNING] javax.mail.Session$5 scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/Session$5.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/Session$5.class]
+[WARNING] javax.mail.Session$6 scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/Session$6.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/Session$6.class]
+[WARNING] javax.mail.Session$7 scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/Session$7.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/Session$7.class]
+[WARNING] javax.mail.Session$8 scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/Session$8.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/Session$8.class]
+[WARNING] javax.mail.Session scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/Session.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/Session.class]
+[WARNING] javax.mail.Store scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/Store.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/Store.class]
+[WARNING] javax.mail.StoreClosedException scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/StoreClosedException.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/StoreClosedException.class]
+[WARNING] javax.mail.StreamLoader scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/StreamLoader.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/StreamLoader.class]
+[WARNING] javax.mail.Transport scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/Transport.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/Transport.class]
+[WARNING] javax.mail.UIDFolder$FetchProfileItem scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/UIDFolder$FetchProfileItem.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/UIDFolder$FetchProfileItem.class]
+[WARNING] javax.mail.UIDFolder scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/UIDFolder.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/UIDFolder.class]
+[WARNING] javax.mail.URLName scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/URLName.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/URLName.class]
+[WARNING] javax.mail.Version scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/Version.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/Version.class]
+[WARNING] javax.mail.event.ConnectionAdapter scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/event/ConnectionAdapter.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/event/ConnectionAdapter.class]
+[WARNING] javax.mail.event.ConnectionEvent scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/event/ConnectionEvent.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/event/ConnectionEvent.class]
+[WARNING] javax.mail.event.ConnectionListener scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/event/ConnectionListener.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/event/ConnectionListener.class]
+[WARNING] javax.mail.event.FolderAdapter scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/event/FolderAdapter.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/event/FolderAdapter.class]
+[WARNING] javax.mail.event.FolderEvent scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/event/FolderEvent.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/event/FolderEvent.class]
+[WARNING] javax.mail.event.FolderListener scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/event/FolderListener.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/event/FolderListener.class]
+[WARNING] javax.mail.event.MailEvent scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/event/MailEvent.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/event/MailEvent.class]
+[WARNING] javax.mail.event.MessageChangedEvent scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/event/MessageChangedEvent.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/event/MessageChangedEvent.class]
+[WARNING] javax.mail.event.MessageChangedListener scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/event/MessageChangedListener.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/event/MessageChangedListener.class]
+[WARNING] javax.mail.event.MessageCountAdapter scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/event/MessageCountAdapter.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/event/MessageCountAdapter.class]
+[WARNING] javax.mail.event.MessageCountEvent scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/event/MessageCountEvent.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/event/MessageCountEvent.class]
+[WARNING] javax.mail.event.MessageCountListener scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/event/MessageCountListener.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/event/MessageCountListener.class]
+[WARNING] javax.mail.event.StoreEvent scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/event/StoreEvent.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/event/StoreEvent.class]
+[WARNING] javax.mail.event.StoreListener scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/event/StoreListener.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/event/StoreListener.class]
+[WARNING] javax.mail.event.TransportAdapter scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/event/TransportAdapter.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/event/TransportAdapter.class]
+[WARNING] javax.mail.event.TransportEvent scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/event/TransportEvent.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/event/TransportEvent.class]
+[WARNING] javax.mail.event.TransportListener scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/event/TransportListener.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/event/TransportListener.class]
+[WARNING] javax.mail.internet.AddressException scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/internet/AddressException.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/internet/AddressException.class]
+[WARNING] javax.mail.internet.AsciiOutputStream scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/internet/AsciiOutputStream.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/internet/AsciiOutputStream.class]
+[WARNING] javax.mail.internet.ContentDisposition scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/internet/ContentDisposition.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/internet/ContentDisposition.class]
+[WARNING] javax.mail.internet.ContentType scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/internet/ContentType.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/internet/ContentType.class]
+[WARNING] javax.mail.internet.HeaderTokenizer$Token scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/internet/HeaderTokenizer$Token.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/internet/HeaderTokenizer$Token.class]
+[WARNING] javax.mail.internet.HeaderTokenizer scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/internet/HeaderTokenizer.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/internet/HeaderTokenizer.class]
+[WARNING] javax.mail.internet.InternetAddress scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/internet/InternetAddress.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/internet/InternetAddress.class]
+[WARNING] javax.mail.internet.InternetHeaders$InternetHeader scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/internet/InternetHeaders$InternetHeader.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/internet/InternetHeaders$InternetHeader.class]
+[WARNING] javax.mail.internet.InternetHeaders$MatchEnum scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/internet/InternetHeaders$MatchEnum.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/internet/InternetHeaders$MatchEnum.class]
+[WARNING] javax.mail.internet.InternetHeaders$MatchHeaderEnum scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/internet/InternetHeaders$MatchHeaderEnum.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/internet/InternetHeaders$MatchHeaderEnum.class]
+[WARNING] javax.mail.internet.InternetHeaders$MatchStringEnum scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/internet/InternetHeaders$MatchStringEnum.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/internet/InternetHeaders$MatchStringEnum.class]
+[WARNING] javax.mail.internet.InternetHeaders scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/internet/InternetHeaders.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/internet/InternetHeaders.class]
+[WARNING] javax.mail.internet.MailDateFormat$AbstractDateParser scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/internet/MailDateFormat$AbstractDateParser.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/internet/MailDateFormat$AbstractDateParser.class]
+[WARNING] javax.mail.internet.MailDateFormat$Rfc2822LenientParser scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/internet/MailDateFormat$Rfc2822LenientParser.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/internet/MailDateFormat$Rfc2822LenientParser.class]
+[WARNING] javax.mail.internet.MailDateFormat$Rfc2822StrictParser scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/internet/MailDateFormat$Rfc2822StrictParser.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/internet/MailDateFormat$Rfc2822StrictParser.class]
+[WARNING] javax.mail.internet.MailDateFormat scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/internet/MailDateFormat.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/internet/MailDateFormat.class]
+[WARNING] javax.mail.internet.MimeBodyPart$EncodedFileDataSource scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/internet/MimeBodyPart$EncodedFileDataSource.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/internet/MimeBodyPart$EncodedFileDataSource.class]
+[WARNING] javax.mail.internet.MimeBodyPart$MimePartDataHandler scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/internet/MimeBodyPart$MimePartDataHandler.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/internet/MimeBodyPart$MimePartDataHandler.class]
+[WARNING] javax.mail.internet.MimeBodyPart scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/internet/MimeBodyPart.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/internet/MimeBodyPart.class]
+[WARNING] javax.mail.internet.MimeMessage$RecipientType scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/internet/MimeMessage$RecipientType.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/internet/MimeMessage$RecipientType.class]
+[WARNING] javax.mail.internet.MimeMessage scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/internet/MimeMessage.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/internet/MimeMessage.class]
+[WARNING] javax.mail.internet.MimeMultipart scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/internet/MimeMultipart.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/internet/MimeMultipart.class]
+[WARNING] javax.mail.internet.MimePart scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/internet/MimePart.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/internet/MimePart.class]
+[WARNING] javax.mail.internet.MimePartDataSource scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/internet/MimePartDataSource.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/internet/MimePartDataSource.class]
+[WARNING] javax.mail.internet.MimeUtility$1NullInputStream scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/internet/MimeUtility$1NullInputStream.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/internet/MimeUtility$1NullInputStream.class]
+[WARNING] javax.mail.internet.MimeUtility scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/internet/MimeUtility.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/internet/MimeUtility.class]
+[WARNING] javax.mail.internet.NewsAddress scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/internet/NewsAddress.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/internet/NewsAddress.class]
+[WARNING] javax.mail.internet.ParameterList$1 scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/internet/ParameterList$1.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/internet/ParameterList$1.class]
+[WARNING] javax.mail.internet.ParameterList$LiteralValue scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/internet/ParameterList$LiteralValue.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/internet/ParameterList$LiteralValue.class]
+[WARNING] javax.mail.internet.ParameterList$MultiValue scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/internet/ParameterList$MultiValue.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/internet/ParameterList$MultiValue.class]
+[WARNING] javax.mail.internet.ParameterList$ParamEnum scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/internet/ParameterList$ParamEnum.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/internet/ParameterList$ParamEnum.class]
+[WARNING] javax.mail.internet.ParameterList$ToStringBuffer scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/internet/ParameterList$ToStringBuffer.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/internet/ParameterList$ToStringBuffer.class]
+[WARNING] javax.mail.internet.ParameterList$Value scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/internet/ParameterList$Value.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/internet/ParameterList$Value.class]
+[WARNING] javax.mail.internet.ParameterList scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/internet/ParameterList.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/internet/ParameterList.class]
+[WARNING] javax.mail.internet.ParseException scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/internet/ParseException.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/internet/ParseException.class]
+[WARNING] javax.mail.internet.PreencodedMimeBodyPart scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/internet/PreencodedMimeBodyPart.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/internet/PreencodedMimeBodyPart.class]
+[WARNING] javax.mail.internet.SharedInputStream scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/internet/SharedInputStream.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/internet/SharedInputStream.class]
+[WARNING] javax.mail.internet.UniqueValue scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/internet/UniqueValue.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/internet/UniqueValue.class]
+[WARNING] javax.mail.search.AddressStringTerm scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/search/AddressStringTerm.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/search/AddressStringTerm.class]
+[WARNING] javax.mail.search.AddressTerm scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/search/AddressTerm.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/search/AddressTerm.class]
+[WARNING] javax.mail.search.AndTerm scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/search/AndTerm.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/search/AndTerm.class]
+[WARNING] javax.mail.search.BodyTerm scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/search/BodyTerm.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/search/BodyTerm.class]
+[WARNING] javax.mail.search.ComparisonTerm scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/search/ComparisonTerm.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/search/ComparisonTerm.class]
+[WARNING] javax.mail.search.DateTerm scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/search/DateTerm.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/search/DateTerm.class]
+[WARNING] javax.mail.search.FlagTerm scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/search/FlagTerm.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/search/FlagTerm.class]
+[WARNING] javax.mail.search.FromStringTerm scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/search/FromStringTerm.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/search/FromStringTerm.class]
+[WARNING] javax.mail.search.FromTerm scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/search/FromTerm.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/search/FromTerm.class]
+[WARNING] javax.mail.search.HeaderTerm scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/search/HeaderTerm.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/search/HeaderTerm.class]
+[WARNING] javax.mail.search.IntegerComparisonTerm scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/search/IntegerComparisonTerm.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/search/IntegerComparisonTerm.class]
+[WARNING] javax.mail.search.MessageIDTerm scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/search/MessageIDTerm.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/search/MessageIDTerm.class]
+[WARNING] javax.mail.search.MessageNumberTerm scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/search/MessageNumberTerm.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/search/MessageNumberTerm.class]
+[WARNING] javax.mail.search.NotTerm scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/search/NotTerm.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/search/NotTerm.class]
+[WARNING] javax.mail.search.OrTerm scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/search/OrTerm.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/search/OrTerm.class]
+[WARNING] javax.mail.search.ReceivedDateTerm scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/search/ReceivedDateTerm.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/search/ReceivedDateTerm.class]
+[WARNING] javax.mail.search.RecipientStringTerm scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/search/RecipientStringTerm.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/search/RecipientStringTerm.class]
+[WARNING] javax.mail.search.RecipientTerm scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/search/RecipientTerm.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/search/RecipientTerm.class]
+[WARNING] javax.mail.search.SearchException scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/search/SearchException.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/search/SearchException.class]
+[WARNING] javax.mail.search.SearchTerm scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/search/SearchTerm.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/search/SearchTerm.class]
+[WARNING] javax.mail.search.SentDateTerm scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/search/SentDateTerm.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/search/SentDateTerm.class]
+[WARNING] javax.mail.search.SizeTerm scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/search/SizeTerm.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/search/SizeTerm.class]
+[WARNING] javax.mail.search.StringTerm scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/search/StringTerm.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/search/StringTerm.class]
+[WARNING] javax.mail.search.SubjectTerm scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/search/SubjectTerm.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/search/SubjectTerm.class]
+[WARNING] javax.mail.util.ByteArrayDataSource$DSByteArrayOutputStream scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/util/ByteArrayDataSource$DSByteArrayOutputStream.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/util/ByteArrayDataSource$DSByteArrayOutputStream.class]
+[WARNING] javax.mail.util.ByteArrayDataSource scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/util/ByteArrayDataSource.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/util/ByteArrayDataSource.class]
+[WARNING] javax.mail.util.SharedByteArrayInputStream scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/util/SharedByteArrayInputStream.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/util/SharedByteArrayInputStream.class]
+[WARNING] javax.mail.util.SharedFileInputStream$SharedFile scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/util/SharedFileInputStream$SharedFile.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/util/SharedFileInputStream$SharedFile.class]
+[WARNING] javax.mail.util.SharedFileInputStream scanned from multiple locations: [jar:file:///home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar!/javax/mail/util/SharedFileInputStream.class, jar:file:///home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar!/javax/mail/util/SharedFileInputStream.class]
+[INFO] Scanning elapsed time=249ms
+[INFO] DefaultSessionIdManager workerName=node0
+[INFO] No SessionScavenger set, using defaults
+[INFO] Scavenging every 600000ms
+
+          __          __    __
+         / /___  ____/ /___/ /
+    __  / / __ \/ __  / __  / 
+   / /_/ / /_/ / /_/ / /_/ /  
+   \____/\____/\__,_/\__,_/   
+
+4 [INFO] j.j.JoddJoy.start:235 - Ah, Joy!
+5 [INFO] j.j.JoddJoy.start:236 - Logging using: SimpleLoggerProvider
+6 [INFO] j.j.JoyPaths.start:80 - Application folder: /home/k/src/java-workspace/joddt1/joddt1
+6 [INFO] j.j.JoyProps.start:93 - PROPS start ----------
+14 [DEBUG] j.j.JoyProps.start:100 - Loaded sys&env props: 144 properties.
+15 [DEBUG] j.j.JoyProps.start:114 - Loading props from classpath...
+108 [DEBUG] j.j.JoyProps.start:120 - Props scanning completed in 93ms.
+108 [DEBUG] j.j.JoyProps.start:122 - Total properties: 144
+109 [INFO] j.j.JoyProps.start:124 - PROPS OK!
+109 [INFO] j.j.JoyProxetta.start:78 - PROXETTA start ----------
+109 [DEBUG] j.j.JoyProxetta.start:82 - Total proxy aspects: 0
+112 [INFO] j.j.JoyProxetta.start:88 - PROXETTA OK!
+112 [INFO] j.j.JoyScanner.start:142 - SCANNER start ----------
+153 [DEBUG] j.j.JoyScanner.start:159 - Scan entries: []
+153 [DEBUG] j.j.JoyScanner.start:160 - Scan jars: []
+153 [DEBUG] j.j.JoyScanner.start:161 - Scan exclude jars: []
+153 [DEBUG] j.j.JoyScanner.start:162 - Scan ignore exception: false
+169 [INFO] j.j.JoyScanner.start:188 - SCANNER OK!
+169 [INFO] j.j.JoyPetite.start:112 - PETITE start  ----------
+186 [DEBUG] j.p.ScopedProxyManager.<init>:70 - ScopedProxyManager created
+186 [DEBUG] j.p.PetiteContainer.<init>:74 - Petite container created
+186 [INFO] j.j.JoyPetite.start:120 - Web application? true
+188 [INFO] j.j.JoyPetite.start:141 - PETITE OK!
+189 [INFO] j.p.PetiteBeans.registerPetiteBean:370 - Petite bean: [joy.core] --> jodd.joy.JoddJoy @ SingletonScope:STRICT
+233 [DEBUG] j.p.ProxettaFactory.process:230 - processing: jodd/joy/JoddJoy
+242 [DEBUG] j.p.ProxettaFactory.define:271 - Proxy not applied: jodd.joy.JoddJoy
+269 [INFO] j.p.PetiteBeans.registerPetiteBean:370 - Petite bean: [joy.scanner] --> jodd.joy.JoyScanner @ SingletonScope:STRICT
+272 [DEBUG] j.p.ProxettaFactory.process:230 - processing: jodd/joy/JoyScanner
+272 [DEBUG] j.p.ProxettaFactory.define:271 - Proxy not applied: jodd.joy.JoyScanner
+278 [INFO] j.j.JoyDb.start:165 - DB start ----------
+281 [INFO] j.p.PetiteBeans.registerPetiteBean:370 - Petite bean: [joy.db.pool] --> jodd.db.pool.CoreConnectionPool @ SingletonScope:STRICT
+284 [DEBUG] j.p.ProxettaFactory.process:230 - processing: jodd/db/pool/CoreConnectionPool
+284 [DEBUG] j.p.ProxettaFactory.define:271 - Proxy not applied: jodd.db.pool.CoreConnectionPool
+290 [WARN] j.j.JoyDb.start:178 - DB configuration not set (joy.db.pool.*). DB will be disabled.
+290 [INFO] j.j.JoyMadvoc.start:114 - MADVOC start  ----------
+292 [DEBUG] j.p.ScopedProxyManager.<init>:70 - ScopedProxyManager created
+292 [DEBUG] j.p.PetiteContainer.<init>:74 - Petite container created
+293 [INFO] j.p.PetiteBeans.registerPetiteBean:370 - Petite bean: [madpc] --> jodd.petite.PetiteContainer @ SingletonScope:NONE
+303 [DEBUG] j.m.c.MadvocContainer.registerComponentInstance:119 - Madvoc WebApp component: [madvocContainer] --> jodd.madvoc.component.MadvocContainer
+303 [INFO] j.p.PetiteBeans.registerPetiteBean:370 - Petite bean: [madvocContainer] --> jodd.madvoc.component.MadvocContainer @ SingletonScope:STRICT
+314 [DEBUG] j.m.WebApp.start:221 - Initializing Madvoc WebApp
+314 [DEBUG] j.m.WebApp.registerMadvocComponents:295 - Registering Madvoc WebApp components
+316 [DEBUG] j.m.c.MadvocContainer.registerComponent:84 - Madvoc WebApp component: [madvocEncoding] --> jodd.madvoc.component.MadvocEncoding
+316 [INFO] j.p.PetiteBeans.registerPetiteBean:370 - Petite bean: [madvocEncoding] --> jodd.madvoc.component.MadvocEncoding @ SingletonScope:STRICT
+317 [DEBUG] j.m.c.MadvocContainer.registerComponentInstance:119 - Madvoc WebApp component: [servletContextProvider] --> jodd.madvoc.component.ServletContextProvider
+317 [INFO] j.p.PetiteBeans.registerPetiteBean:370 - Petite bean: [servletContextProvider] --> jodd.madvoc.component.ServletContextProvider @ SingletonScope:STRICT
+318 [DEBUG] j.m.c.MadvocContainer.registerComponent:84 - Madvoc WebApp component: [actionConfigManager] --> jodd.madvoc.component.ActionConfigManager
+318 [INFO] j.p.PetiteBeans.registerPetiteBean:370 - Petite bean: [actionConfigManager] --> jodd.madvoc.component.ActionConfigManager @ SingletonScope:STRICT
+321 [DEBUG] j.m.c.MadvocContainer.registerComponent:84 - Madvoc WebApp component: [actionMethodParamNameResolver] --> jodd.madvoc.component.ActionMethodParamNameResolver
+321 [INFO] j.p.PetiteBeans.registerPetiteBean:370 - Petite bean: [actionMethodParamNameResolver] --> jodd.madvoc.component.ActionMethodParamNameResolver @ SingletonScope:STRICT
+322 [DEBUG] j.m.c.MadvocContainer.registerComponent:84 - Madvoc WebApp component: [actionMethodParser] --> jodd.madvoc.component.ActionMethodParser
+322 [INFO] j.p.PetiteBeans.registerPetiteBean:370 - Petite bean: [actionMethodParser] --> jodd.madvoc.component.ActionMethodParser @ SingletonScope:STRICT
+326 [DEBUG] j.m.c.MadvocContainer.registerComponent:84 - Madvoc WebApp component: [actionPathRewriter] --> jodd.madvoc.component.ActionPathRewriter
+326 [INFO] j.p.PetiteBeans.registerPetiteBean:370 - Petite bean: [actionPathRewriter] --> jodd.madvoc.component.ActionPathRewriter @ SingletonScope:STRICT
+327 [DEBUG] j.m.c.MadvocContainer.registerComponent:84 - Madvoc WebApp component: [actionsManager] --> jodd.madvoc.component.ActionsManager
+327 [INFO] j.p.PetiteBeans.registerPetiteBean:370 - Petite bean: [actionsManager] --> jodd.madvoc.component.ActionsManager @ SingletonScope:STRICT
+329 [DEBUG] j.m.c.MadvocContainer.registerComponent:84 - Madvoc WebApp component: [contextInjectorComponent] --> jodd.madvoc.component.ContextInjectorComponent
+329 [INFO] j.p.PetiteBeans.registerPetiteBean:370 - Petite bean: [contextInjectorComponent] --> jodd.madvoc.component.ContextInjectorComponent @ SingletonScope:STRICT
+331 [DEBUG] j.m.c.MadvocContainer.registerComponent:84 - Madvoc WebApp component: [interceptorsManager] --> jodd.madvoc.component.InterceptorsManager
+331 [INFO] j.p.PetiteBeans.registerPetiteBean:370 - Petite bean: [interceptorsManager] --> jodd.madvoc.component.InterceptorsManager @ SingletonScope:STRICT
+334 [DEBUG] j.m.c.MadvocContainer.registerComponent:84 - Madvoc WebApp component: [filtersManager] --> jodd.madvoc.component.FiltersManager
+334 [INFO] j.p.PetiteBeans.registerPetiteBean:370 - Petite bean: [filtersManager] --> jodd.madvoc.component.FiltersManager @ SingletonScope:STRICT
+336 [DEBUG] j.m.c.MadvocContainer.registerComponent:84 - Madvoc WebApp component: [madvocController] --> jodd.madvoc.component.MadvocController
+336 [INFO] j.p.PetiteBeans.registerPetiteBean:370 - Petite bean: [madvocController] --> jodd.madvoc.component.MadvocController @ SingletonScope:STRICT
+339 [DEBUG] j.m.c.MadvocContainer.registerComponent:84 - Madvoc WebApp component: [rootPackages] --> jodd.madvoc.component.RootPackages
+340 [INFO] j.p.PetiteBeans.registerPetiteBean:370 - Petite bean: [rootPackages] --> jodd.madvoc.component.RootPackages @ SingletonScope:STRICT
+341 [DEBUG] j.m.c.MadvocContainer.registerComponent:84 - Madvoc WebApp component: [resultsManager] --> jodd.madvoc.component.ResultsManager
+341 [INFO] j.p.PetiteBeans.registerPetiteBean:370 - Petite bean: [resultsManager] --> jodd.madvoc.component.ResultsManager @ SingletonScope:STRICT
+343 [DEBUG] j.m.c.MadvocContainer.registerComponent:84 - Madvoc WebApp component: [resultMapper] --> jodd.madvoc.component.ResultMapper
+343 [INFO] j.p.PetiteBeans.registerPetiteBean:370 - Petite bean: [resultMapper] --> jodd.madvoc.component.ResultMapper @ SingletonScope:STRICT
+344 [DEBUG] j.m.c.MadvocContainer.registerComponent:84 - Madvoc WebApp component: [scopeResolver] --> jodd.madvoc.component.ScopeResolver
+345 [INFO] j.p.PetiteBeans.registerPetiteBean:370 - Petite bean: [scopeResolver] --> jodd.madvoc.component.ScopeResolver @ SingletonScope:STRICT
+346 [DEBUG] j.m.c.MadvocContainer.registerComponent:84 - Madvoc WebApp component: [scopeDataInspector] --> jodd.madvoc.component.ScopeDataInspector
+346 [INFO] j.p.PetiteBeans.registerPetiteBean:370 - Petite bean: [scopeDataInspector] --> jodd.madvoc.component.ScopeDataInspector @ SingletonScope:STRICT
+349 [DEBUG] j.m.c.MadvocContainer.registerComponent:84 - Madvoc WebApp component: [asyncActionExecutor] --> jodd.madvoc.component.AsyncActionExecutor
+349 [INFO] j.p.PetiteBeans.registerPetiteBean:370 - Petite bean: [asyncActionExecutor] --> jodd.madvoc.component.AsyncActionExecutor @ SingletonScope:STRICT
+351 [DEBUG] j.m.c.MadvocContainer.registerComponent:84 - Madvoc WebApp component: [fileUploader] --> jodd.madvoc.component.FileUploader
+351 [INFO] j.p.PetiteBeans.registerPetiteBean:370 - Petite bean: [fileUploader] --> jodd.madvoc.component.FileUploader @ SingletonScope:STRICT
+352 [DEBUG] j.m.c.MadvocContainer.registerComponentInstance:119 - Madvoc WebApp component: [petiteContainer] --> jodd.petite.proxetta.ProxettaAwarePetiteContainer
+352 [INFO] j.p.PetiteBeans.registerPetiteBean:370 - Petite bean: [petiteContainer] --> jodd.petite.proxetta.ProxettaAwarePetiteContainer @ SingletonScope:STRICT
+359 [DEBUG] j.m.c.MadvocContainer.registerComponent:84 - Madvoc WebApp component: [madvocController] --> jodd.madvoc.petite.PetiteMadvocController
+359 [INFO] j.p.PetiteBeans.registerPetiteBean:370 - Petite bean: [madvocController] --> jodd.madvoc.petite.PetiteMadvocController @ SingletonScope:STRICT
+360 [DEBUG] j.m.c.MadvocContainer.registerComponent:84 - Madvoc WebApp component: [filtersManager] --> jodd.madvoc.petite.PetiteFilterManager
+360 [INFO] j.p.PetiteBeans.registerPetiteBean:370 - Petite bean: [filtersManager] --> jodd.madvoc.petite.PetiteFilterManager @ SingletonScope:STRICT
+361 [DEBUG] j.m.c.MadvocContainer.registerComponent:84 - Madvoc WebApp component: [interceptorsManager] --> jodd.madvoc.petite.PetiteInterceptorManager
+361 [INFO] j.p.PetiteBeans.registerPetiteBean:370 - Petite bean: [interceptorsManager] --> jodd.madvoc.petite.PetiteInterceptorManager @ SingletonScope:STRICT
+362 [DEBUG] j.m.c.MadvocContainer.registerComponent:84 - Madvoc WebApp component: [resultsManager] --> jodd.madvoc.petite.PetiteResultsManager
+362 [INFO] j.p.PetiteBeans.registerPetiteBean:370 - Petite bean: [resultsManager] --> jodd.madvoc.petite.PetiteResultsManager @ SingletonScope:STRICT
+364 [DEBUG] j.m.c.MadvocContainer.registerComponent:94 - Madvoc WebApp component: [actionsManager] --> jodd.madvoc.proxetta.ProxettaAwareActionsManager
+364 [INFO] j.p.PetiteBeans.registerPetiteBean:370 - Petite bean: [actionsManager] --> jodd.madvoc.proxetta.ProxettaAwareActionsManager @ SingletonScope:STRICT
+366 [DEBUG] j.m.c.MadvocContainer.registerComponentInstance:119 - Madvoc WebApp component: [proxettaSupplier] --> jodd.madvoc.proxetta.ProxettaSupplier
+366 [INFO] j.p.PetiteBeans.registerPetiteBean:370 - Petite bean: [proxettaSupplier] --> jodd.madvoc.proxetta.ProxettaSupplier @ SingletonScope:STRICT
+367 [DEBUG] j.m.c.MadvocContainer.registerComponentInstance:119 - Madvoc WebApp component: [automagicMadvocConfigurator] --> jodd.joy.JoyMadvoc$1
+367 [INFO] j.p.PetiteBeans.registerPetiteBean:370 - Petite bean: [automagicMadvocConfigurator] --> jodd.joy.JoyMadvoc$1 @ SingletonScope:STRICT
+410 [INFO] j.m.AutomagicMadvocConfigurator.init:100 - Scanning...
+410 [DEBUG] j.j.JoyScanner$1.scanJarFile:147 - Scanning jar: /home/k/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar
+412 [DEBUG] j.j.JoyScanner$1.scanJarFile:147 - Scanning jar: /home/k/.m2/repository/backport-util-concurrent/backport-util-concurrent/3.1/backport-util-concurrent-3.1.jar
+446 [DEBUG] j.j.JoyScanner$1.scanJarFile:147 - Scanning jar: /home/k/.m2/repository/com/google/guava/guava/20.0/guava-20.0.jar
+631 [DEBUG] j.j.JoyScanner$1.scanJarFile:147 - Scanning jar: /home/k/.m2/repository/com/google/inject/guice/4.0/guice-4.0-no_aop.jar
+652 [DEBUG] j.j.JoyScanner$1.scanJarFile:147 - Scanning jar: /home/k/.m2/repository/com/sun/activation/jakarta.activation/1.2.1/jakarta.activation-1.2.1.jar
+655 [DEBUG] j.j.JoyScanner$1.scanJarFile:147 - Scanning jar: /home/k/.m2/repository/com/sun/mail/jakarta.mail/1.6.3/jakarta.mail-1.6.3.jar
+665 [DEBUG] j.j.JoyScanner$1.scanJarFile:147 - Scanning jar: /home/k/.m2/repository/commons-codec/commons-codec/1.6/commons-codec-1.6.jar
+670 [DEBUG] j.j.JoyScanner$1.scanJarFile:147 - Scanning jar: /home/k/.m2/repository/commons-io/commons-io/2.5/commons-io-2.5.jar
+679 [DEBUG] j.j.JoyScanner$1.scanJarFile:147 - Scanning jar: /home/k/.m2/repository/jakarta/mail/jakarta.mail-api/1.6.3/jakarta.mail-api-1.6.3.jar
+689 [DEBUG] j.j.JoyScanner$1.scanJarFile:147 - Scanning jar: /home/k/.m2/repository/javax/enterprise/cdi-api/1.0/cdi-api-1.0.jar
+692 [DEBUG] j.j.JoyScanner$1.scanJarFile:147 - Scanning jar: /home/k/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar
+712 [DEBUG] j.j.JoyScanner$1.scanJarFile:147 - Scanning jar: /home/k/.m2/repository/org/apache/maven/maven-builder-support/3.5.0/maven-builder-support-3.5.0.jar
+713 [DEBUG] j.j.JoyScanner$1.scanJarFile:147 - Scanning jar: /home/k/.m2/repository/org/apache/maven/plugin-tools/maven-plugin-tools-api/3.5/maven-plugin-tools-api-3.5.jar
+714 [DEBUG] j.j.JoyScanner$1.scanJarFile:147 - Scanning jar: /home/k/.m2/repository/org/apache/maven/resolver/maven-resolver-util/1.0.3/maven-resolver-util-1.0.3.jar
+715 [DEBUG] j.j.JoyScanner$1.scanJarFile:147 - Scanning jar: /home/k/.m2/repository/org/apache/maven/shared/maven-artifact-transfer/0.9.1/maven-artifact-transfer-0.9.1.jar
+720 [DEBUG] j.j.JoyScanner$1.scanJarFile:147 - Scanning jar: /home/k/.m2/repository/org/apache/maven/shared/maven-common-artifact-filters/3.0.1/maven-common-artifact-filters-3.0.1.jar
+723 [DEBUG] j.j.JoyScanner$1.scanJarFile:147 - Scanning jar: /home/k/.m2/repository/org/apache/maven/shared/maven-shared-utils/3.1.0/maven-shared-utils-3.1.0.jar
+729 [DEBUG] j.m.AutomagicMadvocConfigurator.lambda$registerAsConsumer$0:140 - Invalid Madvoc action, ignoring: org.apache.maven.shared.utils.io.ScanConductor$ScanAction
+732 [DEBUG] j.j.JoyScanner$1.scanJarFile:147 - Scanning jar: /home/k/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar
+756 [DEBUG] j.j.JoyScanner$1.scanJarFile:147 - Scanning jar: /home/k/.m2/repository/org/apache/taglibs/taglibs-standard-spec/1.2.5/taglibs-standard-spec-1.2.5.jar
+760 [DEBUG] j.j.JoyScanner$1.scanJarFile:147 - Scanning jar: /home/k/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.7.1/plexus-component-annotations-1.7.1.jar
+760 [DEBUG] j.j.JoyScanner$1.scanJarFile:147 - Scanning jar: /home/k/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.24/plexus-interpolation-1.24.jar
+765 [DEBUG] j.m.AutomagicMadvocConfigurator.lambda$registerAsConsumer$0:140 - Invalid Madvoc action, ignoring: org.codehaus.plexus.interpolation.object.FieldBasedObjectInterpolator$InterpolateObjectAction
+766 [DEBUG] j.j.JoyScanner$1.scanJarFile:147 - Scanning jar: /home/k/.m2/repository/org/codehaus/plexus/plexus-utils/3.0.24/plexus-utils-3.0.24.jar
+775 [DEBUG] j.j.JoyScanner$1.scanJarFile:147 - Scanning jar: /home/k/.m2/repository/org/eclipse/jdt/ecj/3.12.3/ecj-3.12.3.jar
+779 [DEBUG] j.j.JoyScanner$1.scanJarFile:147 - Scanning jar: /home/k/.m2/repository/org/eclipse/jetty/apache-jsp/9.4.8.v20171121/apache-jsp-9.4.8.v20171121.jar
+779 [DEBUG] j.j.JoyScanner$1.scanJarFile:147 - Scanning jar: /home/k/.m2/repository/org/eclipse/jetty/apache-jstl/9.4.8.v20171121/apache-jstl-9.4.8.v20171121.jar
+780 [DEBUG] j.j.JoyScanner$1.scanJarFile:147 - Scanning jar: /home/k/.m2/repository/org/eclipse/jetty/websocket/websocket-api/9.4.8.v20171121/websocket-api-9.4.8.v20171121.jar
+781 [DEBUG] j.j.JoyScanner$1.scanJarFile:147 - Scanning jar: /home/k/.m2/repository/org/eclipse/jetty/websocket/websocket-client/9.4.8.v20171121/websocket-client-9.4.8.v20171121.jar
+781 [DEBUG] j.j.JoyScanner$1.scanJarFile:147 - Scanning jar: /home/k/.m2/repository/org/eclipse/jetty/websocket/websocket-common/9.4.8.v20171121/websocket-common-9.4.8.v20171121.jar
+782 [DEBUG] j.j.JoyScanner$1.scanJarFile:147 - Scanning jar: /home/k/.m2/repository/org/eclipse/jetty/websocket/websocket-server/9.4.8.v20171121/websocket-server-9.4.8.v20171121.jar
+782 [DEBUG] j.j.JoyScanner$1.scanJarFile:147 - Scanning jar: /home/k/.m2/repository/org/eclipse/jetty/websocket/websocket-servlet/9.4.8.v20171121/websocket-servlet-9.4.8.v20171121.jar
+783 [DEBUG] j.j.JoyScanner$1.scanJarFile:147 - Scanning jar: /home/k/.m2/repository/org/jodd/jodd-bean/5.0.10/jodd-bean-5.0.10.jar
+789 [DEBUG] j.j.JoyScanner$1.scanJarFile:147 - Scanning jar: /home/k/.m2/repository/org/jodd/jodd-core/5.0.10/jodd-core-5.0.10.jar
+805 [DEBUG] j.j.JoyScanner$1.scanJarFile:147 - Scanning jar: /home/k/.m2/repository/org/jodd/jodd-db/5.0.10/jodd-db-5.0.10.jar
+814 [DEBUG] j.j.JoyScanner$1.scanJarFile:147 - Scanning jar: /home/k/.m2/repository/org/jodd/jodd-decora/5.0.10/jodd-decora-5.0.10.jar
+815 [DEBUG] j.j.JoyScanner$1.scanJarFile:147 - Scanning jar: /home/k/.m2/repository/org/jodd/jodd-http/5.0.10/jodd-http-5.0.10.jar
+818 [DEBUG] j.j.JoyScanner$1.scanJarFile:147 - Scanning jar: /home/k/.m2/repository/org/jodd/jodd-joy/5.0.10/jodd-joy-5.0.10.jar
+823 [DEBUG] j.j.JoyScanner$1.scanJarFile:147 - Scanning jar: /home/k/.m2/repository/org/jodd/jodd-json/5.0.10/jodd-json-5.0.10.jar
+827 [DEBUG] j.j.JoyScanner$1.scanJarFile:147 - Scanning jar: /home/k/.m2/repository/org/jodd/jodd-jtx/5.0.10/jodd-jtx-5.0.10.jar
+829 [DEBUG] j.j.JoyScanner$1.scanJarFile:147 - Scanning jar: /home/k/.m2/repository/org/jodd/jodd-lagarto/5.0.10/jodd-lagarto-5.0.10.jar
+839 [DEBUG] j.j.JoyScanner$1.scanJarFile:147 - Scanning jar: /home/k/.m2/repository/org/jodd/jodd-log/5.0.10/jodd-log-5.0.10.jar
+841 [DEBUG] j.j.JoyScanner$1.scanJarFile:147 - Scanning jar: /home/k/.m2/repository/org/jodd/jodd-madvoc/5.0.10/jodd-madvoc-5.0.10.jar
+850 [DEBUG] j.j.JoyScanner$1.scanJarFile:147 - Scanning jar: /home/k/.m2/repository/org/jodd/jodd-mail/5.0.10/jodd-mail-5.0.10.jar
+853 [DEBUG] j.j.JoyScanner$1.scanJarFile:147 - Scanning jar: /home/k/.m2/repository/org/jodd/jodd-petite/5.0.10/jodd-petite-5.0.10.jar
+861 [DEBUG] j.j.JoyScanner$1.scanJarFile:147 - Scanning jar: /home/k/.m2/repository/org/jodd/jodd-props/5.0.10/jodd-props-5.0.10.jar
+863 [DEBUG] j.j.JoyScanner$1.scanJarFile:147 - Scanning jar: /home/k/.m2/repository/org/jodd/jodd-proxetta/5.0.10/jodd-proxetta-5.0.10.jar
+880 [DEBUG] j.j.JoyScanner$1.scanJarFile:147 - Scanning jar: /home/k/.m2/repository/org/jodd/jodd-servlet/5.0.10/jodd-servlet-5.0.10.jar
+883 [DEBUG] j.j.JoyScanner$1.scanJarFile:147 - Scanning jar: /home/k/.m2/repository/org/jodd/jodd-vtor/5.0.10/jodd-vtor-5.0.10.jar
+885 [DEBUG] j.j.JoyScanner$1.scanJarFile:147 - Scanning jar: /home/k/.m2/repository/org/mortbay/jasper/apache-el/8.5.23/apache-el-8.5.23.jar
+895 [DEBUG] j.j.JoyScanner$1.scanJarFile:147 - Scanning jar: /home/k/.m2/repository/org/mortbay/jasper/apache-jsp/8.5.23/apache-jsp-8.5.23.jar
+944 [DEBUG] j.j.JoyScanner$1.scanJarFile:147 - Scanning jar: /home/k/.m2/repository/org/ow2/asm/asm-commons/6.0/asm-commons-6.0.jar
+947 [DEBUG] j.j.JoyScanner$1.scanJarFile:147 - Scanning jar: /home/k/.m2/repository/org/ow2/asm/asm-tree/6.0/asm-tree-6.0.jar
+949 [DEBUG] j.j.JoyScanner$1.scanJarFile:147 - Scanning jar: /home/k/.m2/repository/org/ow2/asm/asm/6.0/asm-6.0.jar
+953 [DEBUG] j.j.JoyScanner$1.scanJarFile:147 - Scanning jar: /home/k/.m2/repository/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar
+954 [DEBUG] j.j.JoyScanner$1.scanJarFile:147 - Scanning jar: /home/k/.m2/repository/org/sonatype/plexus/plexus-sec-dispatcher/1.4/plexus-sec-dispatcher-1.4.jar
+955 [DEBUG] j.j.JoyScanner$1.scanJarFile:147 - Scanning jar: /home/k/.m2/repository/org/sonatype/sisu/sisu-guice/2.1.7/sisu-guice-2.1.7-noaop.jar
+975 [DEBUG] j.j.JoyScanner$1.scanJarFile:147 - Scanning jar: /home/k/.m2/repository/org/sonatype/sisu/sisu-inject-bean/1.4.2/sisu-inject-bean-1.4.2.jar
+980 [DEBUG] j.j.JoyScanner$1.scanClassPath:153 - Scanning path: /home/k/src/java-workspace/joddt1/joddt1/target/classes
+989 [INFO] j.m.AutomagicMadvocConfigurator.init:109 - Scanning is complete.
+998 [DEBUG] j.p.ProxettaFactory.process:230 - processing: local/jtst/actions/IndexAction
+1000 [DEBUG] j.p.ProxettaFactory.define:271 - Proxy not applied: local.jtst.actions.IndexAction
+1028 [DEBUG] j.m.c.ActionsManager.registerActionRuntime:149 - Madvoc action: /index.html => local.jtst.actions.IndexAction#view
+1031 [DEBUG] j.p.ProxettaFactory.process:230 - processing: local/jtst/actions/admin/UserAjaxAction
+1031 [DEBUG] j.p.ProxettaFactory.define:271 - Proxy not applied: local.jtst.actions.admin.UserAjaxAction
+1035 [DEBUG] j.m.c.ActionsManager.registerActionRuntime:149 - Madvoc action: /userAjax.actions.json => local.jtst.actions.admin.UserAjaxAction#actions
+1035 [INFO] j.m.AutomagicMadvocConfigurator.start:122 - Scanning completed in 622ms.
+1036 [INFO] j.j.JoyMadvoc.start:151 - MADVOC OK!
+-[Beans]--------------------------------------------------------------------------------------------
+singleton  joy.core                                                                    j.joy.JoddJoy
+singleton  joy.db.pool                                                   j.d.pool.CoreConnectionPool
+singleton  joy.scanner                                                              j.joy.JoyScanner
+----------------------------------------------------------------------------------------------------
+-[Routes]-------------------------------------------------------------------------------------------
+*       /index.html                                                     l.j.actions.IndexAction#view
+*       /userAjax.actions.json                                    l.j.a.admin.UserAjaxAction#actions
+-[Aliases]------------------------------------------------------------------------------------------
+        /index.html                                                                            index
+----------------------------------------------------------------------------------------------------
+Joy is up. Enjoy!
+1052 [INFO] j.j.JoddJoy.start:283 - Joy is up. Enjoy!
+[INFO] Started o.e.j.m.p.JettyWebAppContext@52a70627{/,file:///home/k/src/java-workspace/joddt1/joddt1/src/main/webapp/,AVAILABLE}{file:///home/k/src/java-workspace/joddt1/joddt1/src/main/webapp/}
+[INFO] Started ServerConnector@6e6c8854{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+[INFO] Started @5278ms
+[INFO] Started Jetty Server
+2341 [DEBUG] j.m.c.MadvocController.invoke:102 - Action path: GET /userAjax.actions.json
+2342 [DEBUG] j.m.c.MadvocController.invoke:125 - Invoke action for '/userAjax.actions.json' using local.jtst.actions.admin.UserAjaxAction#actions
+2350 [DEBUG] j.j.i.LocalizationUtil.setRequestBundleName:78 - Bundle name for this request: local.jtst.actions.admin.UserAjaxAction
+2363 [ERROR] j.m.MadvocServletFilter.doFilter:111 - Invoking action path failed: /userAjax.actions.json
+java.lang.NullPointerException
+	at local.jtst.actions.admin.UserAjaxAction.actions(UserAjaxAction.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at jodd.madvoc.ActionRequest.invokeActionMethod(ActionRequest.java:256)
+	at jodd.madvoc.ActionRequest.lambda$createExecutionArray$1(ActionRequest.java:226)
+	at jodd.madvoc.ActionRequest.invoke(ActionRequest.java:240)
+	at jodd.madvoc.interceptor.ServletConfigInterceptor.intercept(ServletConfigInterceptor.java:79)
+	at jodd.madvoc.interceptor.ActionInterceptor.apply(ActionInterceptor.java:38)
+	at jodd.madvoc.ActionRequest.invoke(ActionRequest.java:240)
+	at jodd.joy.i18n.I18nInterceptor.intercept(I18nInterceptor.java:46)
+	at jodd.madvoc.interceptor.ActionInterceptor.apply(ActionInterceptor.java:38)
+	at jodd.madvoc.ActionRequest.invoke(ActionRequest.java:240)
+	at jodd.joy.auth.AuthInterceptor.intercept(AuthInterceptor.java:101)
+	at jodd.madvoc.interceptor.ActionInterceptor.apply(ActionInterceptor.java:38)
+	at jodd.madvoc.ActionRequest.invoke(ActionRequest.java:240)
+	at jodd.madvoc.ActionRequest.lambda$createExecutionArray$0(ActionRequest.java:209)
+	at jodd.madvoc.ActionRequest.invoke(ActionRequest.java:240)
+	at jodd.madvoc.component.MadvocController.invoke(MadvocController.java:163)
+	at jodd.madvoc.MadvocServletFilter.doFilter(MadvocServletFilter.java:109)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1629)
+	at org.eclipse.jetty.websocket.server.WebSocketUpgradeFilter.doFilter(WebSocketUpgradeFilter.java:206)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:533)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:190)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1253)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1155)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:219)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:530)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:347)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:256)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:102)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:247)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.produce(EatWhatYouKill.java:140)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:708)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:626)
+	at java.lang.Thread.run(Thread.java:745)
+Exception in thread "qtp1312348533-14" java.lang.NullPointerException
+	at java.lang.String.equals(String.java:982)
+	at java.nio.charset.Charset.atBugLevel(Charset.java:287)
+	at java.nio.charset.CharsetDecoder.<init>(CharsetDecoder.java:198)
+	at java.nio.charset.CharsetDecoder.<init>(CharsetDecoder.java:233)
+	at sun.nio.cs.UTF_8$Decoder.<init>(UTF_8.java:84)
+	at sun.nio.cs.UTF_8$Decoder.<init>(UTF_8.java:81)
+	at sun.nio.cs.UTF_8.newDecoder(UTF_8.java:68)
+	at java.lang.StringCoding.decode(StringCoding.java:213)
+	at java.lang.String.<init>(String.java:463)
+	at org.fusesource.jansi.AnsiOutputStream.write(AnsiOutputStream.java:123)
+	at java.io.FilterOutputStream.write(FilterOutputStream.java:125)
+	at java.io.PrintStream.write(PrintStream.java:480)
+	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)
+	at sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:282)
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.io.OutputStreamWriter.write(OutputStreamWriter.java:207)
+	at java.io.BufferedWriter.flushBuffer(BufferedWriter.java:129)
+	at java.io.PrintStream.write(PrintStream.java:526)
+	at java.io.PrintStream.print(PrintStream.java:669)
+	at java.io.PrintStream.println(PrintStream.java:806)
+	at org.slf4j.impl.SimpleLogger.write(SimpleLogger.java:318)
+	at org.slf4j.impl.SimpleLogger.log(SimpleLogger.java:295)
+	at org.slf4j.impl.SimpleLogger.formatAndLog(SimpleLogger.java:371)
+	at org.slf4j.impl.SimpleLogger.warn(SimpleLogger.java:546)
+	at org.eclipse.jetty.util.log.Slf4jLog.warn(Slf4jLog.java:59)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:690)
+	at java.lang.Thread.run(Thread.java:745)
